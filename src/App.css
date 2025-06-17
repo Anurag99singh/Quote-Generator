@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #b85042;
+  color: black;
+}
+.Header h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.Button {
+  text-align: center;
+}
+.Button button {
+  background-color: #ffecd1;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Button button:hover {
+  background-color: #ffd6a5;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Button button:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.quote h4 {
+  /* display: inline-block; */
+  margin-top: 10px;
+  color: rgb(81, 81, 54);
+  text-align: center;
+}
+.quote h3 {
+  text-align: center;
+}
+.Box {
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  /* place-items: center; */
+  border: 2px solid gray;
+  border-radius: 1rem;
+  padding: 20px 10px;
+  background-color: #e7e8d1;
+}
+.Boxno {
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  /* place-items: center; */
+  border: 2px solid gray;
+  border-radius: 1rem;
+  padding: 20px 10px;
+  background-color: #a7beae;
+  color: aliceblue;
+}
